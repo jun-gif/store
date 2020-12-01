@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bj"
+    android:orientation="vertical"
+    tools:context="com.example.activity.UserRegisterActivity" >
+
+    <Button
+        android:text="返回"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:id="@+id/back"
+        android:textSize="20sp"
+        android:textColor="?android:attr/textColorSecondaryInverseNoDisable"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="用户注册"
+        android:textColor="#111"
+        android:textIsSelectable="false"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/userid"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#22000000"
+            android:drawableLeft="@mipmap/tx"
+            android:ems="10"
+            android:hint="用户由U开头"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#eee"
+            android:textSize="15sp"
+            android:textCursorDrawable="@null"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="#22000000"
+            android:drawableLeft="@mipmap/lock"
+            android:ems="10"
+            android:hint="输入密码"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#eee"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/telphone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="#22000000"
+            android:drawableLeft="@mipmap/lock"
+            android:ems="10"
+            android:hint="输入手机号"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#eee"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="#22000000"
+            android:drawableLeft="@mipmap/lock"
+            android:ems="10"
+            android:hint="输入地址"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#eee"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="#22000000"
+            android:drawableLeft="@mipmap/tx"
+            android:ems="10"
+            android:hint="输入姓名"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#eee"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#22000000"
+        android:text="重置"
+        android:textColor="#eee"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/registe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#22000000"
+        android:text="注册"
+        android:textColor="#eee"
+        android:textSize="16sp" />
+</LinearLayout>

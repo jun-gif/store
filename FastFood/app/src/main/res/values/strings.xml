@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">校园订餐</string>
+    <string name="account_ti">请输入你的账号</string>
+    <string name="password_ti">请输入正确密码</string>
+</resources>
